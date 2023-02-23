@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T15:30:14 EST" name="Suite123" finished-at="2023-02-15T15:30:31 EST" duration-ms="16500">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T15:30:14 EST" name="ChromeTest" finished-at="2023-02-15T15:30:27 EST" duration-ms="12839">
+      <class name="testNGTest.TestMouseAction">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:14 EST" name="launchBrowser" finished-at="2023-02-15T15:30:17 EST" duration-ms="2977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:17 EST" name="createObject" finished-at="2023-02-15T15:30:17 EST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="launchAmazonURL(java.lang.reflect.Method)[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:17 EST" name="launchAmazonURL" finished-at="2023-02-15T15:30:21 EST" duration-ms="3461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testNGTest.TestMouseAction.gotoYourOrder() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazonURL -->
+        <test-method signature="gotoYourOrder()[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:21 EST" name="gotoYourOrder" finished-at="2023-02-15T15:30:26 EST" duration-ms="5353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoYourOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:26 EST" name="closeDriver" finished-at="2023-02-15T15:30:27 EST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:27 EST" name="clearObject" finished-at="2023-02-15T15:30:27 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGTest.TestMouseAction@73e22a3d]" started-at="2023-02-15T15:30:27 EST" name="afterTest" finished-at="2023-02-15T15:30:27 EST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGTest.TestMouseAction -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-02-15T15:30:14 EST" name="FirefoxTest" finished-at="2023-02-15T15:30:31 EST" duration-ms="16500">
+      <class name="testNGTest.TestMouseAction">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:14 EST" name="launchBrowser" finished-at="2023-02-15T15:30:21 EST" duration-ms="6379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:21 EST" name="createObject" finished-at="2023-02-15T15:30:21 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method is-config="true" signature="launchAmazonURL(java.lang.reflect.Method)[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:21 EST" name="launchAmazonURL" finished-at="2023-02-15T15:30:22 EST" duration-ms="1503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testNGTest.TestMouseAction.gotoYourOrder() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchAmazonURL -->
+        <test-method signature="gotoYourOrder()[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:22 EST" name="gotoYourOrder" finished-at="2023-02-15T15:30:27 EST" duration-ms="4372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoYourOrder -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:27 EST" name="closeDriver" finished-at="2023-02-15T15:30:31 EST" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:31 EST" name="clearObject" finished-at="2023-02-15T15:30:31 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGTest.TestMouseAction@3a44431a]" started-at="2023-02-15T15:30:31 EST" name="afterTest" finished-at="2023-02-15T15:30:31 EST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNGTest.TestMouseAction -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite123 -->
+</testng-results>

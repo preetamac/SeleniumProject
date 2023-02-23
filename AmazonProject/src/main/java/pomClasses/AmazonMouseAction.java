@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 public class AmazonMouseAction {
 	
 	
-	//variables
+	//variables or WebElements xpath
 	@FindBy(xpath="//span[text()='Account & Lists']")
 	private WebElement accAndList;
 	
